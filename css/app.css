@@ -12,6 +12,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 150px;
+  z-index: 9999;
 }
 
 .wrapper__login {
@@ -119,6 +120,15 @@ h1 {
   text-align: center;
   background-color: white;
 }
+
+.btn > input {
+  background-color: #01aac1;
+  cursor: pointer;
+  transition: all .3s ease-out;
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
 
 /* Animation */
 
