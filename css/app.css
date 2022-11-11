@@ -180,3 +180,15 @@ h1 {
     height: 30vh;
   }
 }
+
+@media (max-width: 500px) {
+  .rounded__img {
+    max-width: 200px;
+  }
+
+  .btn input {
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+}
